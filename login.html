@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet" />
+    <title>Shopping Cart | Register Page</title>
+
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="css/register.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand"> Shopping Cart </a>
+
+                <!-- <nav>
+                    <ul>
+                        <li><a href="login.html"> Sign In </a></li>
+                        <li><a href="register.html"> Sign Up </a></li>
+                    </ul>
+                </nav> -->
+            </div>
+        </div>
+    </header>
+
+    <section class="section-form ">
+        <input type="checkbox" id="check">
+        <div class="login form">
+            <header class="header-login">Login</header>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" id="login_email">
+                <input type="password" placeholder="Enter your password" id="login_password">
+                <a href="#">Forgot password?</a>
+                <input type="button" class="button" value="Login" id="sign_in">
+            </form>
+            <div class="signup">
+                <span class="signup">Don't have an account?
+                    <label for="check">Signup</label>
+                </span>
+            </div>
+        </div>
+        <div class="registration form">
+            <header class="header-login">Signup</header>
+            <form action="#">
+                <input type="text" placeholder="Enter Username.." id="registration_username" />
+                <input type="email" placeholder="Enter your email" id="registration_email">
+                <input type="password" placeholder="Create a password" id="registration_password">
+                <input type="button" class="button" value="Signup" id="sign_up">
+            </form>
+            <div class="signup">
+                <span class="signup">Already have an account?
+                    <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <script src="JS/register-login/login.js"></script>
+    <script src="JS/register-login/register.js"></script>
+</body>
+
+</html>
